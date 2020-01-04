@@ -1,0 +1,27 @@
+{
+  "name": "simpleeventemitter",
+  "version": "1.0.0",
+  "description": "Simple Event Emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alialparslan/simpleeventemitter.git"
+  },
+  "keywords": [
+    "simple",
+    "event",
+    "emitter",
+    "browser",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "alialparslan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alialparslan/simpleeventemitter/issues"
+  },
+  "homepage": "https://github.com/alialparslan/simpleeventemitter#readme"
+}
