@@ -1,14 +1,14 @@
 {
-  "name": "simpleeventemitter",
+  "name": "alpeventemitter",
   "version": "1.0.0",
-  "description": "Simple Event Emitter",
+  "description": "Simple Event Emitter Module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alialparslan/simpleeventemitter.git"
+    "url": "git+https://github.com/alialparslan/alpeventemitter.git"
   },
   "keywords": [
     "simple",
@@ -21,7 +21,7 @@
   "author": "alialparslan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alialparslan/simpleeventemitter/issues"
+    "url": "https://github.com/alialparslan/alpeventemitter/issues"
   },
-  "homepage": "https://github.com/alialparslan/simpleeventemitter#readme"
+  "homepage": "https://github.com/alialparslan/alpeventemitter#readme"
 }
