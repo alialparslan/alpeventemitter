@@ -32,20 +32,24 @@ module.exports = class{
         this.parentEmitter && this.parentEmitter.emit(event, data)
         let cbs = this.events[event]
         if(cbs){
-            cbs.forEach( (cb,i) => {
+            for(let i=0; i<cbs.length; i++){
+                let cb = cbs[i];
                 if(!cb.____emit){
                     cbs.splice(i, 1);
-                    return;
+                    i--;
+                }else{
+                    cb(data, event);
                 }
-                cb(data, event);
-            })
+            }
         }
-        this.globals.forEach( (cb,i) => {
+        for(let i=0; i<this.globals.length; i++){
+            let cb = this.globals[i];
             if(!cb.____emit){
                 this.globals.splice(i, 1);
-                return;
+                i--;
+            }else{
+                cb(data, event);
             }
-            cb(data, event);
-        });
+        }
     }
 }
