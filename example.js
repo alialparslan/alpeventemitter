@@ -1,11 +1,3 @@
-# AlpEventEmitter
-
-**A simple and lightweight implementation of event emitter with limited functionality.**
-
-	npm i alpeventemitter
-
-
-```javascript
 const EventEmitter = require('./index');
 
 class Hello extends EventEmitter{
@@ -36,4 +28,3 @@ emitter.once(message => {console.log("Once the second: "+message)})
 setTimeout( () => {
     funcToRemove();
 },1300);
-```
