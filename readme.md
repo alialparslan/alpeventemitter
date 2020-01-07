@@ -6,7 +6,7 @@
 
 
 ```javascript
-const EventEmitter = require('./index');
+const EventEmitter = require('alpeventemitter');
 
 class Hello extends EventEmitter{
 	constructor(){
